@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/galeria.css">
+</head>
+
+<body>
+    <nav class="navbar" id="myNavbar" >
+        <a href="navbar-responsive.html">Inicio</a>
+        <a href="noticias.html">Noticias</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="acercade.html">Acerca de</a>
+        <a href="galeria.html">galeria</a>
+        <a href="javascript:void(0)" class="icon" id="toggleMenu" onclick="toggleMenu()">&#9776;</a>
+    </nav>
+    <div class="container">
+        <h1>Mis Escapadas por el mundo</h1>
+        <div class="imgGrande">
+            <img src="img/sol.jpg" alt="Sol" id="imagenPrincipal">
+        </div>
+        <div class="imgPeque" id="imgPeque">
+            <img src="img/img-pequeños/sol-peq.jpg" alt="Sol" title="Sol" class="peque" id="0">
+            <img src="img/img-pequeños/ciudad-peq.jpg" alt="Ciudad" title="Ciudad" class="peque" id="1">
+            <img src="img/lago.jpg" alt="Lago" title="Lago" class="peque" id="2">
+            <img src="img/img-pequeños/lagoVerde-peq.jpg" alt="LagoVerde" title="LagoVerde" class="peque" id="3">
+        </div>
+    </div>
+    <script src="js/navbar.js"></script>
+    <script src="js/galeria.js"></script>
+</body>
+
+</html>
