@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="registro-form">
+        <div id="container">
+            <h1>Formulario de Registro</h1>
+            <div class="item-form">
+                <label for="nombre">Nombre</label>
+                <input required type="text" id="nombre">
+            </div>
+            <div class="item-form">
+                <label for="email">Email</label>
+                <input required type="text" id="email">
+            </div>
+            <div class="item-form">
+                <div class="textPolitica">
+                    <!-- <input type="checkbox" name="politica" id="politica"> -->
+                    <p>Acepta la <a href="#" class="text-politica" data-full="img\politica de privacidad.png">Politica
+                            de Privacidad</a></p>
+                </div>
+            </div>
+            <div class="item-form">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+        <div id="imageModal" class="modal">
+            <span class="close">&times;</span>
+            <div class="modal-content" id="mod">
+                <img src="" alt="Imagen Ampliada" class="modal-image">
+                <div class="poliPriv">
+                    <p> <input type="checkbox" name="politica" class="cboxx"> Por Favor, acepte la Politica de Pivacidad
+                    </p>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="js/formulario2.js"></script>
+</body>
+
+</html>

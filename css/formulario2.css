@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+   background-color: rgba(0, 255, 221, 0.144);
+}
+#container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+.item-form{
+  padding: 5px 0;
+  margin-bottom: 15px;
+}
+/* .textPolitica{
+    display: flex;
+} */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"]{
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4cae4c;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.205);
+    overflow-y: auto;
+}
+.modal-content, #mod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%;
+    width: 100%; */
+}
+.poliPriv{
+    /* display: flex; */
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.548);
+
+}
+.modal-image{
+    max-width: 90%;
+   height: 90%;
+}
+.close{
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    right: 35px;
+    cursor: pointer;
+}
+/* .success {
+    color: #5cb85c  !important;
+}
+.no-check {
+    color: red  !important;
+} */

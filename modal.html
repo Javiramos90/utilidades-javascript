@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Ventana Modal</title>
+</head>
+<body>
+    <!-- contenido en pantalla -->
+    <div class="container">
+        <h1>Ventana Modal</h1>
+        <p>La imagen seleccionada se mostrará en una pantalla modal</p>
+        <div class="gallery">
+            <img src="img/img-pequeños/sol-peq.jpg" alt="Sol" class="thumbnail" data-full="img\sol.jpg">
+            <img src="img/img-pequeños/ciudad-peq.jpg" alt="Ciudad" class="thumbnail" data-full="img\ciudad.jpg">
+            <img src="img/lago.jpg" alt="Lago" class="thumbnail" data-full="img\lago.jpg">
+            <img src="img/img-pequeños/lagoVerde-peq.jpg" alt="LagoVerde" class="thumbnail" data-full="img\lagoVerde.jpg">
+        </div>
+    </div>
+    <!-- contenido de ventana modal -->
+     <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img src="" alt="" class="modal-image">
+        </div>
+     </div>
+     <!-- fin contenido ventana modal -->
+      <script src="js/modal.js"></script>
+</body>
+</html> 
